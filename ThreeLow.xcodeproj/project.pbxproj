@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2BC517431DCBDC5B00CEBB93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC517421DCBDC5B00CEBB93 /* main.m */; };
+		2BC5174B1DCBDE1000CEBB93 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5174A1DCBDE1000CEBB93 /* InputHandler.m */; };
+		2BC5174E1DCBDE1F00CEBB93 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC5174D1DCBDE1F00CEBB93 /* GameController.m */; };
+		2BC517511DCBDE4200CEBB93 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC517501DCBDE4200CEBB93 /* Dice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		2BC5173F1DCBDC5B00CEBB93 /* ThreeLow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreeLow; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC517421DCBDC5B00CEBB93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BC517491DCBDE1000CEBB93 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		2BC5174A1DCBDE1000CEBB93 /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		2BC5174C1DCBDE1F00CEBB93 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		2BC5174D1DCBDE1F00CEBB93 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		2BC5174F1DCBDE4200CEBB93 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		2BC517501DCBDE4200CEBB93 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				2BC517421DCBDC5B00CEBB93 /* main.m */,
+				2BC5174C1DCBDE1F00CEBB93 /* GameController.h */,
+				2BC5174D1DCBDE1F00CEBB93 /* GameController.m */,
+				2BC5174F1DCBDE4200CEBB93 /* Dice.h */,
+				2BC517501DCBDE4200CEBB93 /* Dice.m */,
+				2BC517491DCBDE1000CEBB93 /* InputHandler.h */,
+				2BC5174A1DCBDE1000CEBB93 /* InputHandler.m */,
 			);
 			path = ThreeLow;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC5174E1DCBDE1F00CEBB93 /* GameController.m in Sources */,
 				2BC517431DCBDC5B00CEBB93 /* main.m in Sources */,
+				2BC517511DCBDE4200CEBB93 /* Dice.m in Sources */,
+				2BC5174B1DCBDE1000CEBB93 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
